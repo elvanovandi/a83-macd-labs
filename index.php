@@ -26,7 +26,7 @@
        <input type="submit" name="load_data" value="Load Data" />
  </form>
  <?php
-    $host = "https://elvanfirstsubmission.azurewebsites.net";
+    $host = "elvanfirstsubmission.database.windows.net";
     $user = "elvanovandi";
     $pass = "Elvngntnk97";
     $db = "ElvanFirstSubmission";
