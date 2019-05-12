@@ -70,7 +70,7 @@
                 echo "<th>Email</th>";
                 echo "<th>Job</th>";
                 echo "<th>Date</th></tr>";
-                echo "$registrants.count()"
+                echo .$registrants.count().
                 foreach($registrants as $registrant) {
                     echo "<tr><td>" .$registrant['name']."</td>";
                     echo "<td>" .$registrant['email']."</td>";
