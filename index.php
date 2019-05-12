@@ -71,6 +71,7 @@
                 echo "<th>Job</th>";
                 echo "<th>Date</th></tr>";
                 foreach($registrants as $registrant) {
+                    echo "halo there"
                     echo "<tr><td>" .$registrant['name']."</td>";
                     echo "<td>" .$registrant['email']."</td>";
                     echo "<td>" .$registrant['job']."</td>";
